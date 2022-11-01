@@ -1,11 +1,12 @@
 <script lang="ts">
-  import Tailwind from "./Tailwind.svelte"
-  import Intro from "./Intro.svelte"
-  import Work from "./Work.svelte"
-  import Kofi from "./Kofi.svelte"
-  import HideToggle from "./HideToggle.svelte"
+  import Tailwind from "./Tailwind.svelte";
+  import Intro from "./Intro.svelte";
+  import Work from "./Work.svelte";
+  import Kofi from "./Kofi.svelte";
+  import HideToggle from "./HideToggle.svelte";
   import {
     educations,
+    extracurricularActivities,
     fullVersionLink,
     interests,
     introData,
@@ -13,12 +14,12 @@
     sourceLink,
     technologies,
     workExperiences,
-  } from "./data"
+  } from "./data";
 
-  let editMode = false
+  let editMode = false;
 
   function toggleMode() {
-    editMode = !editMode
+    editMode = !editMode;
   }
 </script>
 
@@ -66,15 +67,20 @@
       Technologies and Languages
     </h2>
     <hr />
-    <ul class="text-left list-disc pl-8">
+    <table class="table table-fixed items-start text-left">
       {#each technologies as tech}
-        <li>
+        <tr>
           <HideToggle />
-          <span class="w-28 inline-block">{tech.section}</span>
-          <span>{tech.details}</span>
-        </li>
+          <td class="w-60 pl-8 align-top print:w-36">
+            <ul class="list-disc">
+              <li>{tech.section}</li>
+            </ul>
+            <!-- <span class="w-36 print:w-32">- {tech.section}</span> -->
+          </td>
+          <td><span>{@html tech.details}</span></td>
+        </tr>
       {/each}
-    </ul>
+    </table>
   </section>
 
   <section>
@@ -98,6 +104,16 @@
     <hr />
 
     {#each workExperiences as exp}
+      <Work {...exp} />
+    {/each}
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Extracurricular Activities</h2>
+    <hr />
+
+    {#each extracurricularActivities as exp}
       <Work {...exp} />
     {/each}
   </section>

@@ -1,190 +1,203 @@
-export const fullVersionLink = "https://resume.narze.live"
-export const sourceLink = "https://github.com/narze/resume"
+export const fullVersionLink = "https://resume.bombnp.dev";
+export const sourceLink = "https://github.com/bombnp/resume";
 export const ogImageUrl =
-  "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
+  "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg";
 
 export const introData = {
-  name: "Manassarn Manoonchai",
-  nickname: "Noom",
+  name: "Nut Pinyo",
+  nickname: "Bomb",
   phone: "",
-  email: "manassarn@gmail.com",
-  github: "narze",
-  linkedin: "manassarn",
+  email: "bomb.np@gmail.com",
+  github: "bombnp",
+  linkedin: "bombnp",
   location: "Bangkok, Thailand",
-  website: "narze.live",
-}
+  // website: "narze.live",
+};
 
+// TODO: add nested subsections for readability
 export const technologies = [
   {
     section: "Languages:",
     details:
-      "Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).",
+      "<strong>Go, TypeScript</strong>, Node.js, Python, Java, C, C++, Bash, SQL",
   },
   {
-    section: "Frameworks:",
+    section: "Frameworks and Libraries:",
     details:
-      "Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap",
+      "<strong>Go Fiber, NestJS</strong>, Express.js, React, Next.js, Django, TailwindCSS, Prisma, GORM, GraphQL, go-ethereum, PayloadCMS, Strapi",
+  },
+  {
+    section: "Databases:",
+    details:
+      "<strong>PostgreSQL, MongoDB, Redis</strong>, MySQL, InfluxDB, CrateDB, Prometheus, ElasticSearch",
   },
   {
     section: "Tools:",
     details:
-      "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces",
+      "Git, Terraform, Docker, Kubernetes, Docker Swarm, Helm, Kafka, Kafka Connect, RabbitMQ, Grafana, Nginx, Traefik, Protobuf, Avro",
   },
   {
-    section: "Other:",
-    details:
-      "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare",
+    section: "Cloud and DevOps:",
+    details: "AWS, GCP, Firebase, Vercel, GitHub Actions, GitLab CI",
   },
-]
+];
 
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Chulalongkorn University, TH. 2007-2010 (GPA 3.45)",
+    details:
+      "Chulalongkorn University, TH. 2020-Present (Expected Diploma: 2023)",
   },
-]
+];
 
 export const workExperiences = [
   {
-    position: "Senior Infrastructure Software Engineer",
-    company: "OPN TH",
-    url: "https://opn.ooo/",
-    years: ["2021", "Current"],
+    position: "Data Platform Engineer (Intern)",
+    company: "Agoda",
+    url: "https://careersatagoda.com",
+    years: ["Jun 2022", "Jul 2022"],
     details: [
-      "Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm",
-      "Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store",
-      "Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt",
-      "Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.",
-      "Designed, bootstrapped, and developed 4 E-commerce related services for Opn.Store",
+      "Developed a distributed, fault-tolerant Kafka Connect cluster for ingesting data from Kafka to ElasticSearch, up to 20k messages/min.",
+      "Pioneered the use of Kafka Connect in Agoda Data Platform team, and migrated part of the data ingestion pipeline from Apache NiFi to Kafka Connect.",
+      'Developed a monitoring system for Connect nodes using custom time-series database "WhiteFalcon" and Grafana.',
+      "Won 1st place in Agoda Intern Pitch Competition with 10K baht grand prize.",
     ],
   },
   {
-    position: "Full-stack Developer, Co-founder",
-    company: "EventPop",
-    url: "https://eventpop.me",
-    years: ["2015", "2021"],
+    position: "Software Engineer",
+    company: "AltoTech",
+    url: "https://altotech.net",
+    years: ["Nov 2021", "Feb 2022"],
     details: [
-      "Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails, sold 2M+ tickets within 6 years",
-      "Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform",
-      "Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team keeping daily release & deployment possible.",
-      "Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale",
-      "Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway. Processed more than 1 billion THB",
-      "Helped interview more than 50 software engineers, gave insights & feedbacks on technical aspects of candidates, designed tech-related questions & on-site coding challenges",
+      "Developed a data pipeline to ingest data from more than 30+ edge devices using Kafka and Kafka Connect.",
+      "Developed a web API for querying time-series data from CrateDB, as well as real-time video feed API up to 30 FPS using Django and Socket.IO.",
+      "Developed a CI/CD pipeline using GitHub Actions to deploy the API and data pipeline to on-premise servers.",
     ],
   },
   {
-    position: "Maker, Co-founder",
-    company: "Maker Zoo",
-    url: "https://fb.me/makerzoo",
-    years: ["2014", "2016"],
+    position: "Junior Software Engineer (Intern)",
+    company: "Cleverse",
+    url: "https://cleverse.com",
+    years: ["Jun 2021", "Jul 2021"],
     details: [
-      "Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok & Thailand",
-      "Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc. Having more than 100 participants combined.",
-      "Developed hardware-related products for 3-5 clients and startups",
-      "Developed smart door lock system for Hubba, first co-working space in Bangkok",
-      "Provided 3D-printing service & consultant to more than 50 clients",
-      "Hosted 10+ chapters of tutorial videos on Intel Galileo development board, for Intel Thailand",
+      "Developed backend microservices to fetch data from up to 100k smart contracts with Go, go-ethereum, Redis, and PostgreSQL.",
+      "Designed a microservice architecture to support real-time data processing pipeline using Kubernetes, Google Cloud Pub/Sub, and Protobuf.",
+      "Developed and maintained Docker containers using GitOps with ArgoCD.",
     ],
   },
   {
-    position: "Web / IoT Developer (Contract)",
-    company: "Box24",
-    url: "https://washbox24.com",
-    years: ["2015", "2016"],
+    position: "Software Engineer, Backend (Intern)",
+    company: "Wongnai Media (now LINEMAN Wongnai)",
+    url: "https://wongnai.com/about",
+    years: ["Jun 2020", "Jul 2020"],
     details: [
-      "Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)",
-      "Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment",
+      "Developed and maintained Java APIs for core backend services.",
+      "Developed and maintained a new service for sending monthly sales reports to restaurant owners using LINE Messaging API and Spring Framework.",
+    ],
+  },
+];
+
+export const extracurricularActivities = [
+  {
+    position: "Senior Software Engineer, Co-Founder",
+    company: "CU Get Reg",
+    url: "https://cugetreg.com",
+    years: ["Feb 2021", "Present"],
+    details: [
+      // "A one-stop-service planning tool for the university's course registration, used by more than 30k students in Chula and up to 5k users/day during registration season.",
+      "Developed and maintained multiple backends services using NestJS, GraphQL and MongoDB.",
+      "Designed database models and indices for optimal query performance. Used by more than 30k students in Chula and up to 5k users/day during registration season.",
+      "Developed a course scraper to fetch up to 50k courses from Reg Chula's course portal, and store in MongoDB.",
+      "Helped mentor junior engineers on the backend and data team.",
     ],
   },
   {
-    position: "Web Developer",
-    company: "Figabyte",
-    url: "https://www.facebook.com/figabyte",
-    years: ["2011", "2014"],
+    position: "President",
+    company: "Thinc. (Thailand Incubator)",
+    url: "https://thinc.in.th",
+    years: ["Jun 2020", "May 2022"],
     details: [
-      "Developed more than 20 Facebook web apps with CodeIgniter, using Facebook API",
-      "Developed web platform using Ruby on Rails 3 & 4",
-      "Made iOS apps for several clients using PhoneGap and RubyMotion",
-    ],
+      "Hosted club activities, events, and workshop sessions for students interested in software development. Events include \"Thinc. First Act\", \"10 Days Project\", \"Intro to Git\", \"First Step towards Data Science\", \"Intro to Web3\", and more.",
+      "Oversee multiple projects and engineering teams.",
+      "Mentored first-time engineers to launch production-grade products.",
+    ]
   },
   {
-    position: "Part-time Web Developer",
-    company: "Wongnai Media (wongnai.com)",
-    url: "https://wongnai.com",
-    years: ["2010"],
+    position: "Technical Director",
+    company: "Student Government of Chulalongkorn University (SGCU)",
+    url: "",
+    years: ["Jun 2020", "May 2022"],
     details: [
-      "Developed a small part of website using Java with Spring MVC Framework built with Apache Maven",
-      "Learned TDD practice & making early-stage startup",
-    ],
+      "Led a team of 20 developers to develop more than 6 software development projects using Scrum framework.",
+      "Gathered requirements from stakeholders and designed software architecture for each project.",
+    ]
+  },
+  {
+    position: "Director of Information Technology",
+    company: "Engineering Student Committee (ESC)",
+    url: "https://esc.eng.chula.ac.th",
+    years: ["Jun 2020", "May 2021"],
+    details: [
+      "Led a team of developers to develop websites to support engineering students and clubs.",
+      "Maintained organization website and servers."
+    ]
   },
 ]
 
 export const projects = [
   {
-    name: "Manoonchai",
+    name: "Intania Election",
     details:
-      "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-    url: "manoonchai.com",
+      "Online election system for Engineering Student Committee. Used for electing student representatives and event managers.",
+    url: "elect.esc.eng.chula.ac.th",
   },
   {
-    name: "9armbot (Contributor)",
+    name: "Intania Clubs",
     details:
-      "Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma",
-    url: "github.com/thananon/twitch_tools",
+      "A collection of engineering student clubs. Made with Gatsby's static site generation.",
+    url: "esc.eng.chula.ac.th/clubs",
   },
   {
-    name: "Dotfiles",
+    name: "Intania Orientation",
+    details: "A collection of resources for freshmen, including first-year course details, advisor contacts, and more.",
+    url: "esc.eng.chula.ac.th/or65",
+  },
+  {
+    name: "20th Larngear Camp ",
+    details: "Registration system for 20th Larngear Camp, a 4-day academic camp for freshmen. Used by more than 2k students each year. Made with React, MUI, Express",
+    url: "larngear.in.th"
+  },
+  {
+    name: "Terraform Midterm Project for SOFT DEF SYS course",
     details:
-      "macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)",
-    url: "github.com/narze/dotfiles",
+      "Terraform modules for deploying a WordPress app on a new VPC, connected to a MariaDB EC2 instance on a private subnet, and configured to use S3 for media offload.",
+    url: "github.com/bombnp/soft-def-sys-midterm-terraform",
   },
   {
-    name: "#100DaysOfCode",
+    name: "Chulachana (CU Check In)",
+    details: "A contact tracing app for Chulalongkorn University, able to support up to 8k users. Inspired from Thaichana. Made with Kubernetes Next.js, InfluxDB, and Grafana.",
+    url: "github.com/isd-sgcu/chulachana-core",
+  },
+  {
+    name: "Rubnongkaomai",
     details:
-      "My take on practicing modern frontend development by building small projects in 100 days",
-    url: "100daysofcode-narze.vercel.app",
+      "Freshmen orientation registration website for Student Government of Chulalongkorn University. Designed to withstand up to 6K concurrent users with monitoring systems using Kubernetes, Prometheus, InfluxDB, and Grafana.",
+    url: "github.com/orgs/thinc-org/teams/rnkm63-devs/repositories",
   },
   {
-    name: "Baht.rb",
-    details: "Ruby gem to convert number to Thai Baht format",
-    url: "rubygems.org/gems/baht",
-  },
-  {
-    name: "Baht.js",
+    name: "Voice of Chula",
     details:
-      "Convert number to Thai Baht format, but 10x faster & fully typed.",
-    url: "npmjs.com/package/baht",
+      "Social media platform for encouraging discussions related to problems in Chulalongkorn University. Made with Next.js and NestJS.",
+    url: "gitlab.com/voice-of-chula/backend/backend-core",
   },
   {
-    name: "Resumette",
+    name: "Math Grader CMS",
     details:
-      "Interactive & printable résumé with tailored skills fitted in single letter page (This page!)",
-    url: "resume.narze.live",
+      "Content management system for managing math problems and grading using PayloadCMS. Made with ❤️ for my partner.",
+    url: "github.com/math-p-earth/math-grader-cms",
   },
-  {
-    name: "Popyut",
-    details:
-      "Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week",
-    url: "github.com/popyut/popyut",
-  },
-  {
-    name: "Resound",
-    details:
-      "Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.",
-    url: "github.com/narze/resound",
-  },
-  {
-    name: "Thwordle",
-    details: "Thai language Wordle clone.",
-    url: "thwordle.narze.live",
-  },
-]
+];
 
 export const interests = [
-  "Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-  "Typing : 120+ words per minute (Colemak Mod-DH layout)",
-  "Games : Music games, FPS, MOBA, Puzzle",
-  "Music : EDM, Rock, Japanese",
-  "Remote working is a OK. I extensively use self time tracking app for all my works.",
-  "Pets : I have 3 dogs",
-]
+  "Areas : Software Engineering, Data Engineering, Blockchain, DevOps",
+];
