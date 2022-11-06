@@ -104,9 +104,9 @@ export const extracurricularActivities = [
     url: "https://cugetreg.com",
     years: ["Feb 2021", "Present"],
     details: [
-      // "A one-stop-service planning tool for the university's course registration, used by more than 30k students in Chula and up to 5k users/day during registration season.",
+      "A one-stop-service planning tool for the university's course registration, used by more than 30k students in Chula and up to 5k users/day during registration season.",
       "Developed and maintained multiple backends services using NestJS, GraphQL and MongoDB.",
-      "Designed database models and indices for optimal query performance. Used by more than 30k students in Chula and up to 5k users/day during registration season.",
+      "Designed database models and indices for optimal query performance.",
       "Developed a course scraper to fetch up to 50k courses from Reg Chula's course portal, and store in MongoDB.",
       "Helped mentor junior engineers on the backend and data team.",
     ],
@@ -145,6 +145,12 @@ export const extracurricularActivities = [
 ]
 
 export const projects = [
+  {
+    name: "Sports Center Booking",
+    details:
+      "Online court booking system for sports center at Chulalongkorn University. Built with React, NestJS, and MongoDB.",
+    url: "book.cusc.chula.ac.th",
+  },
   {
     name: "Intania Election",
     details:
