@@ -146,9 +146,15 @@ export const extracurricularActivities = [
 
 export const projects = [
   {
+    name: "CHU Magazine",
+    details:
+      "A blog platform for Editorial Department, Student Government of Chulalongkorn University. Made with Directus CMS, Next.js, NestJS.",
+    url: "chu.in.th",
+  },
+  {
     name: "Sports Center Booking",
     details:
-      "Online court booking system for sports center at Chulalongkorn University. Built with React, NestJS, and MongoDB.",
+      "Online court booking system for sports center at Chulalongkorn University. Made with React, NestJS, and MongoDB.",
     url: "book.cusc.chula.ac.th",
   },
   {
