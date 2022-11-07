@@ -57,7 +57,7 @@ export const workExperiences = [
     url: "https://careersatagoda.com",
     years: ["Jun 2022", "Jul 2022"],
     details: [
-      "Developed a distributed, fault-tolerant Kafka Connect cluster for ingesting data from Kafka to ElasticSearch, up to 20k messages/min.",
+      "Developed a distributed, fault-tolerant Kafka Connect cluster for ingesting data from Kafka to ElasticSearch, up to 60k messages/min.",
       "Pioneered the use of Kafka Connect in Agoda Data Platform team, and migrated part of the data ingestion pipeline from Apache NiFi to Kafka Connect.",
       'Developed a monitoring system for Connect nodes using custom time-series database "WhiteFalcon" and Grafana.',
       "Won 1st place in Agoda Intern Pitch Competition with 10K baht grand prize.",
