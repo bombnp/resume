@@ -11,7 +11,7 @@ export const introData = {
   github: "bombnp",
   linkedin: "bombnp",
   location: "Bangkok, Thailand",
-  // website: "narze.live",
+  website: "bombnp.dev",
 };
 
 // TODO: add nested subsections for readability
