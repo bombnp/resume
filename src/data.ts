@@ -117,6 +117,7 @@ export const extracurricularActivities = [
     url: "https://thinc.in.th",
     years: ["Jun 2020", "May 2022"],
     details: [
+      "A student run organization which aims to motivate student to bring technology to the community and make impact to the society.",
       "Hosted club activities, events, and workshop sessions for students interested in software development. Events include \"Thinc. First Act\", \"10 Days Project\", \"Intro to Git\", \"First Step towards Data Science\", \"Intro to Web3\", and more.",
       "Oversee multiple projects and engineering teams.",
       "Mentored first-time engineers to launch production-grade products.",
