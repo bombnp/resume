@@ -1,4 +1,4 @@
-export const fullVersionLink = "https://resume.bombnp.dev";
+export const fullVersionLink = "https://bombnp.dev";
 export const sourceLink = "https://github.com/bombnp/resume";
 export const ogImageUrl =
   "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg";
@@ -118,10 +118,10 @@ export const extracurricularActivities = [
     years: ["Jun 2020", "May 2022"],
     details: [
       "A student run organization which aims to motivate student to bring technology to the community and make impact to the society.",
-      "Hosted club activities, events, and workshop sessions for students interested in software development. Events include \"Thinc. First Act\", \"10 Days Project\", \"Intro to Git\", \"First Step towards Data Science\", \"Intro to Web3\", and more.",
+      'Hosted club activities, events, and workshop sessions for students interested in software development. Events include "Thinc. First Act", "10 Days Project", "Intro to Git", "First Step towards Data Science", "Intro to Web3", and more.',
       "Oversee multiple projects and engineering teams.",
       "Mentored first-time engineers to launch production-grade products.",
-    ]
+    ],
   },
   {
     position: "Technical Director",
@@ -131,7 +131,7 @@ export const extracurricularActivities = [
     details: [
       "Led a team of 20 developers to develop more than 6 software development projects using Scrum framework.",
       "Gathered requirements from stakeholders and designed software architecture for each project.",
-    ]
+    ],
   },
   {
     position: "Director of Information Technology",
@@ -140,10 +140,10 @@ export const extracurricularActivities = [
     years: ["Jun 2020", "May 2021"],
     details: [
       "Led a team of developers to develop websites to support engineering students and clubs.",
-      "Maintained organization website and servers."
-    ]
+      "Maintained organization website and servers.",
+    ],
   },
-]
+];
 
 export const projects = [
   {
@@ -172,13 +172,15 @@ export const projects = [
   },
   {
     name: "Intania Orientation",
-    details: "A collection of resources for freshmen, including first-year course details, advisor contacts, and more.",
+    details:
+      "A collection of resources for freshmen, including first-year course details, advisor contacts, and more.",
     url: "esc.eng.chula.ac.th/or65",
   },
   {
     name: "20th Larngear Camp ",
-    details: "Registration system for 20th Larngear Camp, a 4-day academic camp for freshmen. Used by more than 2k students each year. Made with React, MUI, Express",
-    url: "larngear.in.th"
+    details:
+      "Registration system for 20th Larngear Camp, a 4-day academic camp for freshmen. Used by more than 2k students each year. Made with React, MUI, Express",
+    url: "larngear.in.th",
   },
   {
     name: "Terraform Midterm Project for SOFT DEF SYS course",
@@ -188,7 +190,8 @@ export const projects = [
   },
   {
     name: "Chulachana (CU Check In)",
-    details: "A contact tracing app for Chulalongkorn University, able to support up to 8k users. Inspired from Thaichana. Made with Kubernetes Next.js, InfluxDB, and Grafana.",
+    details:
+      "A contact tracing app for Chulalongkorn University, able to support up to 8k users. Inspired from Thaichana. Made with Kubernetes Next.js, InfluxDB, and Grafana.",
     url: "github.com/isd-sgcu/chulachana-core",
   },
   {
