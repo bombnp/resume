@@ -59,7 +59,7 @@ export const workExperiences = [
     details: [
       "Developed a distributed, fault-tolerant Kafka Connect cluster for ingesting data from Kafka to ElasticSearch, up to 60k messages/min.",
       "Pioneered the use of Kafka Connect in Agoda Data Platform team, and migrated part of the data ingestion pipeline from Apache NiFi to Kafka Connect.",
-      'Developed a monitoring system for Connect nodes using custom time-series database "WhiteFalcon" and Grafana.',
+      'Developed a monitoring system for the Kafka Connect cluster using Agoda\'s time-series database "WhiteFalcon" and Grafana.',
       "Won 1st place in Agoda Intern Pitch Competition with 10K baht grand prize.",
     ],
   },
