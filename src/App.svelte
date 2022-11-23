@@ -110,7 +110,9 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Extracurricular Activities</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      Extracurricular Activities
+    </h2>
     <hr />
 
     {#each extracurricularActivities as exp}
