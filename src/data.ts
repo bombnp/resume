@@ -24,7 +24,7 @@ export const technologies = [
   {
     section: "Frameworks and Libraries:",
     details:
-      "<strong>Go Fiber, NestJS</strong>, Express.js, React, Next.js, Django, TailwindCSS, Prisma, GORM, GraphQL, go-ethereum, PayloadCMS, Strapi",
+      "<strong>Go Fiber, NestJS</strong>, Echo, Express.js, React, Next.js, Django, TailwindCSS, Prisma, GORM, GraphQL, go-ethereum, PayloadCMS, Strapi",
   },
   {
     section: "Databases:",
@@ -51,6 +51,16 @@ export const educations = [
 ];
 
 export const workExperiences = [
+  {
+    position: "Full-Stack Software Engineer",
+    company: "Level11 (KillSwitch Finance)",
+    url: "https://www.killswitch.finance/",
+    years: ["Dec 2022", "Present"],
+    details: [
+      "Developed backend modules for an asset management platform using Go with monolithic architecture.",
+      "Developed user interfaces for the platform using Next.js and Ant Design.",
+    ],
+  },
   {
     position: "Data Platform Engineer (Intern)",
     company: "Agoda",
@@ -105,10 +115,10 @@ export const extracurricularActivities = [
     years: ["Feb 2021", "Present"],
     details: [
       "A one-stop-service planning tool for the university's course registration, used by more than 30k students in Chula and up to 5k users/day during registration season.",
-      "Developed and maintained multiple backends services using NestJS, GraphQL and MongoDB.",
+      "Developed and maintained multiple backend services using NestJS, GraphQL and MongoDB.",
       "Designed database models and indices for optimal query performance.",
       "Developed a course scraper to fetch up to 50k courses from Reg Chula's course portal, and store in MongoDB.",
-      "Helped mentor junior engineers on the backend and data team.",
+      "Led a team of more than 10 engineers to develop and maintain the platform.",
     ],
   },
   {
