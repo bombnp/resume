@@ -157,6 +157,12 @@ export const extracurricularActivities = [
 
 export const projects = [
   {
+    name: "MCV Autosub",
+    details:
+      "Video transcript generation feature for Chulalongkorn University's learning management system, MyCourseVille. Deployed with AWS EC2, ECS Fargate, SQS, SNS, and S3.",
+    url: "mycourseville.com",
+  },
+  {
     name: "CHU Magazine",
     details:
       "A blog platform for Editorial Department, Student Government of Chulalongkorn University. Made with Directus CMS, Next.js, NestJS.",
