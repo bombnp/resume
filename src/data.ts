@@ -196,7 +196,7 @@ export const projects = [
     name: "20th Larngear Camp ",
     details:
       "Registration system for 20th Larngear Camp, a 4-day academic camp for freshmen. Used by more than 2k students each year. Made with React, MUI, Express",
-    url: "larngear.in.th",
+    url: "larngear.org",
   },
   {
     name: "Terraform Midterm Project for SOFT DEF SYS course",
