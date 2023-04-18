@@ -57,8 +57,10 @@ export const workExperiences = [
     url: "https://www.killswitch.finance/",
     years: ["Dec 2022", "Present"],
     details: [
-      "Developed backend modules for an asset management platform using Go with monolithic architecture.",
+      "Led the development of a new business unit, starting from requirements gathering, system design, prototyping, implementation, testing, and feedback gathering.",
+      "Developed backend modules for an asset management platform using Go with monolithic architecture and more than 23 modules.",
       "Developed user interfaces for the platform using Next.js and Ant Design.",
+      "Optimized the Cloudbuild pipeline with Docker cache",
     ],
   },
   {
