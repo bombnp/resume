@@ -52,10 +52,21 @@ export const educations = [
 
 export const workExperiences = [
   {
+    position: "Software Engineer",
+    company: "Cleverse",
+    url: "https://cleverse.com/",
+    years: ["Jun 2023", "Present"],
+    details: [
+      "Use technical expertise to plan and design system architecture, while taking into account the business requirements and constraints, to deliver a working product to market in shortest amount of time.",
+      "Developed backend services for DeFi applications using Go, go-ethereum, Redis, and PostgreSQL.",
+      "Maintained a cluster of microservices using Kubernetes and GitOps with ArgoCD.",
+    ],
+  },
+  {
     position: "Full-Stack Software Engineer",
     company: "Level11 (KillSwitch Finance)",
     url: "https://www.killswitch.finance/",
-    years: ["Dec 2022", "Present"],
+    years: ["Dec 2022", "May 2023"],
     details: [
       "Led the development of a new business unit, starting from requirements gathering, system design, prototyping, implementation, testing, and feedback gathering.",
       "Developed backend modules for an asset management platform using Go with monolithic architecture and more than 23 modules.",
