@@ -40,6 +40,10 @@ export const technologies = [
     section: "Cloud and DevOps:",
     details: "AWS, GCP, Firebase, Vercel, GitHub Actions, GitLab CI",
   },
+  {
+    section: "Blockchain:",
+    details: "EVM-based chains (Ethereum, BSC, Arbitrum), Bitcoin, Bitcoin meta-protocols (Ordinal, Atomicals)",
+  },
 ];
 
 export const educations = [
