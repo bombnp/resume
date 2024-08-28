@@ -50,7 +50,7 @@ export const educations = [
   {
     head: "B.Eng. Computer Engineering",
     details:
-      "Chulalongkorn University, TH. 2020-Present (Expected Diploma: 2023)",
+      "Chulalongkorn University, TH. 2020-2023 (GPA 3.60, First Class Honors)",
   },
 ];
 
