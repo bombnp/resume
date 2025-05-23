@@ -42,7 +42,8 @@ export const technologies = [
   },
   {
     section: "Blockchain:",
-    details: "EVM-based chains (Ethereum, BSC, Arbitrum), Bitcoin, Bitcoin meta-protocols (Ordinal, Atomicals)",
+    details:
+      "EVM-based chains (Ethereum, BSC, Arbitrum), Bitcoin, Bitcoin meta-protocols (Ordinal, Atomicals)",
   },
 ];
 
@@ -64,6 +65,7 @@ export const workExperiences = [
       "Architected and developed a blazing-fast trading platform based on Solana blockchain, with near-instant real-time price updates, and fault-tolerant blockchain indexers.",
       "Led a small team of cross-functional team to build fault-tolerant, high-performance Bitcoin metaprotocol indexer service, built in Go and PostgreSQL.",
       "Researched, designed, and developed prototypes for multiple Web3 applications, with emphasis on fast quick iteration and fast time-to-market (3 weeks, max).",
+      "Maintained a Kubernetes cluster with ArgoCD and most of our Google Cloud infrastructure.",
     ],
   },
   {
