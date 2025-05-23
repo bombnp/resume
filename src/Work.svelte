@@ -21,7 +21,7 @@
     {#each details as detail}
       <li>
         <HideToggle />
-        {detail}
+        {@html detail}
       </li>
     {/each}
   </ul>
