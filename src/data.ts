@@ -62,10 +62,10 @@ export const workExperiences = [
     url: "https://cleverse.com/",
     years: ["Jun 2023", "Present"],
     details: [
-      "Architected and developed a blazing-fast trading platform based on Solana blockchain, with near-instant real-time price updates, and fault-tolerant blockchain indexers.",
-      "Led a small team of cross-functional team to build fault-tolerant, high-performance Bitcoin metaprotocol indexer service, built in Go and PostgreSQL.",
-      "Researched, designed, and developed prototypes for multiple Web3 applications, with emphasis on fast quick iteration and fast time-to-market (3 weeks, max).",
-      "Maintained a Kubernetes cluster with ArgoCD and most of our Google Cloud infrastructure.",
+      "<strong>Led a small cross-functional team</strong> to build fault-tolerant, high-performance Bitcoin metaprotocol indexer service, built in Go and PostgreSQL.",
+      "<strong>Architected and developed a blazing-fast trading platform</strong> based on Solana blockchain, with near-instant real-time price updates, and fault-tolerant blockchain indexers.",
+      "<strong>Researched, designed, and developed prototypes</strong> for multiple Web3 applications, with emphasis on fast quick iteration and fast time-to-market (3 weeks, max).",
+      "Maintained a Kubernetes cluster with ArgoCD and most of our Google Cloud infrastructure, with a focus on cost optimization and scalability.",
     ],
   },
   {
@@ -74,7 +74,7 @@ export const workExperiences = [
     url: "https://www.killswitch.finance/",
     years: ["Dec 2022", "May 2023"],
     details: [
-      "Led the development of a new business unit, starting from requirements gathering, system design, prototyping, implementation, testing, and feedback gathering.",
+      "<strong>Led the development of a new business unit</strong>, starting from requirements gathering, system design, prototyping, implementation, testing, and feedback gathering.",
       "Developed backend modules for an asset management platform using Go with monolithic architecture and more than 23 modules.",
       "Developed user interfaces for the platform using Next.js and Ant Design.",
       "Optimized the Cloudbuild pipeline with Docker cache",
@@ -86,9 +86,9 @@ export const workExperiences = [
     url: "https://careersatagoda.com",
     years: ["Jun 2022", "Jul 2022"],
     details: [
-      "Developed a distributed, fault-tolerant Kafka Connect cluster for ingesting data from Kafka to ElasticSearch, up to 60k messages/min.",
-      "Pioneered the use of Kafka Connect in Agoda Data Platform team, and migrated part of the data ingestion pipeline from Apache NiFi to Kafka Connect.",
-      'Developed a monitoring system for the Kafka Connect cluster using Agoda\'s time-series database "WhiteFalcon" and Grafana.',
+      "<strong>Developed a distributed, fault-tolerant Kafka Connect cluster</strong> for ingesting data from Kafka to ElasticSearch, up to 60k messages/min.",
+      "<strong>Pioneered the use of Kafka Connect</strong> in Agoda Data Platform team, and migrated part of the data ingestion pipeline from Apache NiFi to Kafka Connect.",
+      '<strong>Developed a monitoring system</strong> for the Kafka Connect cluster using Agoda\'s time-series database "WhiteFalcon" and Grafana.',
       "Won 1st place in Agoda Intern Pitch Competition with 10K baht grand prize.",
     ],
   },
