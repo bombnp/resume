@@ -24,21 +24,21 @@ export const technologies = [
   {
     section: "Frameworks and Libraries:",
     details:
-      "<strong>Go Fiber, NestJS</strong>, Echo, Express.js, React, Next.js, Django, TailwindCSS, Prisma, GORM, GraphQL, go-ethereum, PayloadCMS, Strapi",
+      "<strong>Go Fiber, Express.js</strong>, Echo, NestJS, React, Next.js, TailwindCSS, Django, Prisma, GORM, GraphQL, go-ethereum, PayloadCMS",
   },
   {
     section: "Databases:",
     details:
-      "<strong>PostgreSQL, MongoDB, Redis</strong>, MySQL, InfluxDB, CrateDB, Prometheus, ElasticSearch",
+      "<strong>PostgreSQL, Redis, ClickHouse</strong>, MongoDB, MySQL, InfluxDB, CrateDB, Prometheus, ElasticSearch",
   },
   {
     section: "Tools:",
     details:
-      "Git, Terraform, Docker, Kubernetes, Docker Swarm, Helm, Kafka, Kafka Connect, RabbitMQ, Grafana, Nginx, Traefik, Protobuf, Avro",
+      "Git, Terraform, ArgoCD, Docker, Kubernetes, Docker Swarm, Helm, Kafka, Kafka Connect, RabbitMQ, Grafana, Nginx, Traefik, Protobuf, Avro",
   },
   {
     section: "Cloud and DevOps:",
-    details: "AWS, GCP, Firebase, Vercel, GitHub Actions, GitLab CI",
+    details: "AWS, Google Cloud, Firebase, Vercel, GitHub Actions, GitLab CI",
   },
   {
     section: "Blockchain:",
@@ -57,13 +57,13 @@ export const educations = [
 export const workExperiences = [
   {
     position: "Software Engineer",
-    company: "Cleverse",
+    company: "Cleverse (Web3 Venture Builder)",
     url: "https://cleverse.com/",
     years: ["Jun 2023", "Present"],
     details: [
-      "Use technical expertise to plan and design system architecture, while taking into account the business requirements and constraints, to deliver a working product to market in shortest amount of time.",
-      "Developed backend services for DeFi applications using Go, go-ethereum, Redis, and PostgreSQL.",
-      "Maintained a cluster of microservices using Kubernetes and GitOps with ArgoCD.",
+      "Architected and developed a blazing-fast trading platform based on Solana blockchain, with near-instant real-time price updates, and fault-tolerant blockchain indexers.",
+      "Led a small team of cross-functional team to build fault-tolerant, high-performance Bitcoin metaprotocol indexer service, built in Go and PostgreSQL.",
+      "Researched, designed, and developed prototypes for multiple Web3 applications, with emphasis on fast quick iteration and fast time-to-market (3 weeks, max).",
     ],
   },
   {
@@ -173,6 +173,12 @@ export const extracurricularActivities = [
 ];
 
 export const projects = [
+  {
+    name: "Junior Webmaster Camp (Imagineering Captain)",
+    details:
+      "Led a team of 6+ engineers to develop all websites and systems in a 4-day hackathon camp for aspiring students. Systems include: registration site, in-house activity point system, timers, hackathon deployment infrastructure, and more.",
+    url: "13.jwc.in.th/",
+  },
   {
     name: "MCV Autosub",
     details:
