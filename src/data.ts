@@ -64,7 +64,8 @@ export const workExperiences = [
     details: [
       "<strong>Led a small cross-functional team</strong> to build fault-tolerant, high-performance Bitcoin metaprotocol indexer service, built in Go and PostgreSQL.",
       "<strong>Architected and developed a blazing-fast trading platform</strong> based on Solana blockchain, with near-instant real-time price updates, and fault-tolerant blockchain indexers.",
-      "<strong>Researched, designed, and developed prototypes</strong> for multiple Web3 applications, with emphasis on fast quick iteration and fast time-to-market (3 weeks, max).",
+      "<strong>Led the development process of multiple Web3 projects</strong>, from requirements gathering, system design, implementation, testing, deploying to production, and maintenance.",
+      "<strong>Researched and developed prototypes</strong> for Web3 applications, with emphasis on fast iteration and fast time-to-market (3 weeks, max).",
       "Maintained a Kubernetes cluster with ArgoCD and most of our Google Cloud infrastructure, with a focus on cost optimization and scalability.",
     ],
   },
