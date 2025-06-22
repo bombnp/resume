@@ -255,5 +255,5 @@ export const projects = [
 ];
 
 export const interests = [
-  "Areas : Software Engineering, Data Engineering, Blockchain, DevOps",
+  "Areas : Software Engineering, System Design, Optimization, Blockchain, DevOps, Data Engineering",
 ];
