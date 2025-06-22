@@ -62,11 +62,10 @@ export const workExperiences = [
     url: "https://cleverse.com/",
     years: ["Jun 2023", "Present"],
     details: [
-      "<strong>Led a small cross-functional team</strong> to build fault-tolerant, high-performance Bitcoin metaprotocol indexer service, built in Go and PostgreSQL.",
-      "<strong>Architected and developed a blazing-fast trading platform</strong> based on Solana blockchain, with near-instant real-time price updates, and fault-tolerant blockchain indexers.",
-      "<strong>Led the development process of multiple Web3 projects</strong>, from requirements gathering, system design, implementation, testing, deploying to production, and maintenance.",
-      "<strong>Researched and developed prototypes</strong> for Web3 applications, with emphasis on fast iteration and fast time-to-market (3 weeks, max).",
+      "<strong>Architected and developed a blazing-fast decentralized finance platform</strong> based on Solana blockchain, with real-time price updates and P/L calculation. Built fault-tolerant blockchain indexers, handling data over 10 trillion transactions. Built in Go, PostgreSQL, and ClickHouse.",
+      "<strong>Spearheaded the development process of multiple Web3/DeFi projects</strong> (spanning over EVM, Bitcoin, and Solana blockchains), from requirements gathering, system design, implementation, testing, production deployment, and maintenance.",
       "Maintained a Kubernetes cluster with ArgoCD and most of our Google Cloud infrastructure, with a focus on cost optimization and scalability.",
+      "Specializes in system design (focus on scalability and ease of changing requirements), fast-paced development, and performance optimization.",
     ],
   },
   {
