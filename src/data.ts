@@ -24,7 +24,7 @@ export const technologies = [
   {
     section: "Frameworks and Libraries:",
     details:
-      "<strong>Go Fiber, Express.js</strong>, Echo, NestJS, React, Next.js, TailwindCSS, Django, Prisma, GORM, GraphQL, go-ethereum, PayloadCMS",
+      "<strong>Go Fiber, Elysia.js</strong>, Express.js, NestJS, React, Next.js, TailwindCSS, Django, Prisma, Drizzle, GORM, GraphQL, go-ethereum",
   },
   {
     section: "Databases:",
@@ -42,8 +42,7 @@ export const technologies = [
   },
   {
     section: "Blockchain:",
-    details:
-      "EVM-based chains (Ethereum, BSC, Arbitrum), Bitcoin, Bitcoin meta-protocols (Ordinal, Atomicals)",
+    details: "Solana, Bitcoin, EVM-based chains",
   },
 ];
 
