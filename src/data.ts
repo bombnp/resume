@@ -56,10 +56,19 @@ export const educations = [
 
 export const workExperiences = [
   {
+    position: "Senior Software Engineer",
+    company: "SmarterTravel Thailand",
+    url: "https://www.smartertravel.com/about-us",
+    years: ["Sep 2025", "Present"],
+    details: [
+      "Just started. :)",
+    ],
+  },
+  {
     position: "Software Engineer",
     company: "Cleverse (Web3 Venture Builder)",
     url: "https://cleverse.com/",
-    years: ["Jun 2023", "Present"],
+    years: ["Jun 2023", "Aug 2025"],
     details: [
       "<strong>Architected and developed a blazing-fast decentralized finance platform</strong> based on Solana blockchain, with real-time price updates and P/L calculation. Built fault-tolerant blockchain indexers, handling data over 10 trillion transactions. Built in Go, PostgreSQL, and ClickHouse.",
       "<strong>Spearheaded the development process of multiple Web3/DeFi projects</strong> (spanning over EVM, Bitcoin, and Solana blockchains), from requirements gathering, system design, implementation, testing, production deployment, and maintenance.",
