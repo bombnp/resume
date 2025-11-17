@@ -59,9 +59,11 @@ export const workExperiences = [
     position: "Senior Software Engineer",
     company: "SmarterTravel Thailand",
     url: "https://www.smartertravel.com/about-us",
-    years: ["Sep 2025", "Present"],
+    years: ["Sep 2025", "Dec 2025"],
     details: [
-      "Just started. :)",
+      "Designed and developed a new location-based, cost-per-click bidding system for <a href='https://bookingbuddy.com' target='_blank' rel='noreferrer' style='text-decoration: underline;'>BookingBuddy</a> website, with attribute-based bid modifiers and location hierarchy support.",
+      "Migrated our old Location Service API and ETL service from Java to Go. Rewritten from scratch and optimized for performance and cost efficiency. Search suggestions are powered by AWS OpenSearch.",
+      "Maintained service deployments using Terraform and Helm.",
     ],
   },
   {
