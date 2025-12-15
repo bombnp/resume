@@ -57,6 +57,13 @@ export const educations = [
 export const workExperiences = [
   {
     position: "Senior Software Engineer",
+    company: "LightArray Capital",
+    url: "https://lightarray.capital",
+    years: ["Dec 2025", "Present"],
+    details: ["Just started :)"],
+  },
+  {
+    position: "Senior Software Engineer",
     company: "SmarterTravel Thailand",
     url: "https://www.smartertravel.com/about-us",
     years: ["Sep 2025", "Dec 2025"],
