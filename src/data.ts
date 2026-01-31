@@ -61,9 +61,10 @@ export const workExperiences = [
     url: "https://lightarray.capital",
     years: ["Dec 2025", "Present"],
     details: [
-      "Led the development of automated crypto trading system prototype, with support for executing various strategies, emphasizing security, performance, and extensibility.",
+      "<strong>Led the development of automated crypto trading system prototype</strong> in Python, with support for executing various strategies, emphasizing security and extensibility.",
+      "Initial market-neutral strategy showed promising performance, starting at 6.5% APR",
       "Built and maintained the company's entire cloud infrastructure, primarily built on Google Cloud Platform (Kubernetes, SQL, Workload Identity, GitHub Actions, and more).",
-      "Work hand-in-hand with Product Manager to optimize profit generation.",
+      "Worked hand-in-hand with Product Manager to optimize profit generation.",
     ],
   },
   {
