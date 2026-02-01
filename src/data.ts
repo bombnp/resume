@@ -34,7 +34,7 @@ export const technologies = [
   {
     section: "Tools:",
     details:
-      "ArgoCD, Docker, Kubernetes, Docker Swarm, gRPC, Websocket, Protobuf, Avro, Helm, Kafka, Kafka Connect, RabbitMQ, Grafana, Git, Terraform, Nginx, Traefik",
+      "ArgoCD, Docker, Kubernetes, Docker Swarm, gRPC, WebSocket, Protobuf, Avro, Helm, Kafka, Kafka Connect, RabbitMQ, Grafana, Git, Terraform, Nginx, Traefik",
   },
   {
     section: "Cloud and DevOps:",
